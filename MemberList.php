@@ -21,8 +21,7 @@ class MemberList extends Controller
     function showId($id){
         $data = Member::find($id);
         return view('edit',['data'=>$data]);
-        
-    }
+        }
     function updateId(Request $req){
      $data=Member::find($req->id);
      $data->Name=$req->fullname;
