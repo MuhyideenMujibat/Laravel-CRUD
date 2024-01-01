@@ -2,7 +2,7 @@
 
 <form action="/edit" method="POST"> 
 @csrf
-<input type="text" name="id" value="{{$data['id']}}"  placeholder="Name"/>
+<input type="hidden" name="id" value="{{$data['id']}}"  placeholder="Name"/>
 
 <input type="text" name="fullname" value="{{$data['Name']}}"  placeholder="Name"/></br>
 </br>
