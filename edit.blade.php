@@ -1,5 +1,4 @@
 <h1> Edit User </h1>
-
 <form action="/edit" method="POST"> 
 @csrf
 <input type="hidden" name="id" value="{{$data['id']}}"  placeholder="Name"/>
